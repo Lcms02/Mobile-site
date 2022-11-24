@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'firacode';
+    src: url(../fonts/FiraCode-Regular.woff2);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #424242;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.tela{
+    width: 23vw;
+    height: 85vh;
+    border-radius: 2vw;
+    background: linear-gradient(#4EEDED,#A7F2F2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header{
+    width: 100%;
+    height: 40%;
+    background-color: #1F736A;
+    border-radius: 2vw 2vw 0 0;
+    display: flex;
+    padding: 0 20px 0 0;
+}
+
+#header button{
+    border: none;
+    background-color: transparent;
+    font-size: 3vw;
+    padding: 0 0 15vw 10px;
+    cursor: pointer;
+}
+
+#header button:hover{
+    color: #fff;
+}
+
+#header img{
+    width: 60%;
+    height: 65%;
+    margin:20px 0  20px 20px;
+}
+
+#header h1{
+    position: absolute;
+    transform: translate(18%, 650%);
+    color: #fff;
+    font-family: 'firacode';
+    font-size: 1.8vw;
+}   
+
+#header span{
+    color: #fff;
+    font-family: 'firacode';
+    font-size: 0.8vw;
+    position: absolute;
+}
+
+#viagens{
+    transform: translate(100%, 1800%);
+}
+
+#seguidores{
+    transform: translate(140%, 1800%);
+}
+
+#grupos{
+    transform: translate(220%, 1950%);
+}
+
+#mapa{
+    width: 20vw;
+    padding: 20px 0 0 0;
+}
+
+#foto-viagens{
+    font-size: 1.5vw;
+    font-family: 'firacode';
+    padding: 10px 0 0 0 ;
+}
+
+#fotos-pequenas{
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 15px 0 0 0;
+}
+
+#fotos-pequenas p{
+    font-size: .8vw;
+    font-family: 'firacode';
+    font-weight: bold;
+    padding: 2px;
+}
